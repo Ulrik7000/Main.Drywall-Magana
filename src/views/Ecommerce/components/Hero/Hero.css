@@ -1,0 +1,130 @@
+/*******************************
+  Hero background
+********************************/
+.hero {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 60vh;
+  min-height: 15rem;
+  background-color: rgba(255, 255, 255, 0);
+  /* opacity: 0; */
+
+  overflow: hidden;
+}
+
+/*******************************
+  Central icon and text
+********************************/
+.icon-holder {
+  position: relative;
+  z-index: 1;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: rgba(255, 253, 247, 0);
+  /* opacity: 0; */
+  box-shadow: 0 0 10px 10px rgba(255, 253, 247, 0);
+  border-radius: 3rem;
+  padding: 2rem;
+  height: 15rem;
+}
+
+.icon-holder__icon {
+  position: absolute;
+  top: 0;
+  width: 12rem;
+}
+
+.icon-holder__icon img {
+  max-width: 90%;
+}
+
+.icon-holder__text {
+  font-size: 4rem;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  bottom: 0;
+  color: rgb(0, 0, 0);
+
+}
+
+/*******************************
+  category images
+********************************/
+.category-image {
+  position: absolute;
+}
+
+.category-image img {
+  max-width: 80%;
+}
+
+.category-image__one {
+  left: 0rem;
+  width: 25vw;
+  max-width: 480px;
+}
+
+.category-image__two {
+  top: 0;
+  right: 0;
+  width: 28vw;
+  max-width: 378px;
+}
+
+.category-image__three {
+  bottom: 0;
+  right: 0;
+  width: 30vw;
+  max-width: 280px;
+}
+
+/*******************************
+  Responsive changes
+********************************/
+@media screen and (max-width: 876px) {
+  .hero {
+    height: 60vh;
+  }
+
+  /*******************************
+    Icon and text cover
+  ********************************/
+  .icon-holder {
+    width: 90%;
+    height: 90%;
+    justify-content: flex-end;
+  }
+
+  .icon-holder__icon {
+    top: auto;
+    bottom: 6rem;
+    max-width: 9rem;
+  }
+
+  /*******************************
+    Reposition images
+  ********************************/
+  .category-image__one {
+    top: -5rem;
+    width: 80vw;
+  }
+
+  .category-image__two {
+    right: 0rem;
+  }
+
+  .category-image__three {
+    top: 18rem;
+    bottom: auto;
+    right: -5rem;
+    width: 50vw;
+  }
+}

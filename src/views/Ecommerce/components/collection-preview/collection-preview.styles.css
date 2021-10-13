@@ -1,0 +1,18 @@
+.collection-previewa {
+	 display: flex;
+	 flex-direction: column;
+	 margin-bottom: 30px;
+}
+ .collection-previewa .titlea {
+	 font-size: 28px;
+	 margin-bottom: 25px;
+}
+ .collection-previewa .previewa {
+	 display: flex;
+	 justify-content: space-between;
+}
+
+body {
+	font-family: 'Open Sans Condensed';
+	padding: 20px 60px;
+}
