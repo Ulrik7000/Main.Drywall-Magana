@@ -79,30 +79,30 @@ import BestDeals from './views/Ecommerce/components/BestDeals/BestDeals.componen
 
 
 class Routes extends React.Component {
-  unsubscribeFromAuth = null;
+//   unsubscribeFromAuth = null;
 
-  componentDidMount() {
-      const { setCurrentUser } = this.props;
+//   componentDidMount() {
+//       const { setCurrentUser } = this.props;
 
-      this.unsubscribeFromAuth = auth.onAuthStateChanged(async userAuth => {
-        if (userAuth) {
-          const userRef = await createUserProfileDocument(userAuth);
+//       this.unsubscribeFromAuth = auth.onAuthStateChanged(async userAuth => {
+//         if (userAuth) {
+//           const userRef = await createUserProfileDocument(userAuth);
 
-          userRef.onSnapshot(snapShot => {
-            setCurrentUser({
-              id: snapShot.id,
-              ...snapShot.data()
-            });
-          });
-        }
+//           userRef.onSnapshot(snapShot => {
+//             setCurrentUser({
+//               id: snapShot.id,
+//               ...snapShot.data()
+//             });
+//           });
+//         }
 
-        setCurrentUser(userAuth);
-      });
-    }
+//         setCurrentUser(userAuth);
+//       });
+//     }
 
-    componentWillUnmount() {
-      this.unsubscribeFromAuth();
-    }
+//     componentWillUnmount() {
+//       this.unsubscribeFromAuth();
+//     }
 
 
   render() {
@@ -647,35 +647,7 @@ class Routes extends React.Component {
           />
         )}
       />
-      <Route
-        exact
-        path="/signin-cover"
-        // render={() =>
-        //       this.props.currentUser ? (
-        //         <Redirect to='/shop/home' />
-        //       ) : (
-        //
-        //         <SigninCoverView />
-        //     )}
-            // render={matchProps => (
-            //     <WithLayout
-            //       {...matchProps}
-            //       component={SigninCoverView}
-            //       layout={MinimalLayout}
-            //     />
-            //   )}
-
-              render={(matchProps) =>
-                    this.props.currentUser ? (
-                      <Redirect to='/' />
-                    ) : (
-                      <WithLayout
-                            {...matchProps}
-                            component={SigninCoverView}
-                            layout={MinimalLayout}
-                          />
-              )}
-      />
+      
 
       <Route
         exact
@@ -688,17 +660,7 @@ class Routes extends React.Component {
           />
         )}
       />
-      <Route
-        exact
-        path="/signup-cover"
-        render={matchProps => (
-          <WithLayout
-            {...matchProps}
-            component={SignupCoverView}
-            layout={MinimalLayout}
-          />
-        )}
-      />
+      
       <Route
         exact
         path="/account"
@@ -748,15 +710,12 @@ class Routes extends React.Component {
     </div>
   )};
 };
-const mapStateToProps = createStructuredSelector({
-  currentUser: selectCurrentUser
-});
+// const mapStateToProps = createStructuredSelector({
+//   currentUser: selectCurrentUser
+// });
 
-const mapDispatchToProps = dispatch => ({
-  setCurrentUser: user => dispatch(setCurrentUser(user))
-});
+// const mapDispatchToProps = dispatch => ({
+//   setCurrentUser: user => dispatch(setCurrentUser(user))
+// });
 
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(Routes);
+export default Routes;
