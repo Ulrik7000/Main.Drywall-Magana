@@ -40,7 +40,7 @@ export { default as PasswordResetSimple } from './PasswordResetSimple';
 export { default as SigninSimple } from './SigninSimple';
 export { default as SigninCover } from './SigninCover';
 export { default as SignupSimple } from './SignupSimple';
-export { default as SignupCover } from './SignupCover';
+// export { default as SignupCover } from './SignupCover';
 export { default as Account } from './Account';
 export { default as Documentation } from './Documentation';
 export { default as NotFound } from './NotFound';
