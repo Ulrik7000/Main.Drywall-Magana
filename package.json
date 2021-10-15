@@ -12,10 +12,7 @@
     "clear-all": "rimraf ./build ./node_modules"
   },
   "eslintConfig": {
-    "rules": {
-		"no-unused-vars": "off"
-	},
-	  "extends": [
+  	  "extends": [
       "react-app",
       
     ]
