@@ -53,7 +53,7 @@ import {
   SigninSimple as SigninSimpleView,
 //   SigninCover as SigninCoverView,
   SignupSimple as SignupSimpleView,
-  SignupCover as SignupCoverView,
+//   SignupCover as SignupCoverView,
   Account as AccountView,
   Documentation as DocumentationView,
   NotFound as NotFoundView,
