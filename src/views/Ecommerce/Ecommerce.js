@@ -33,7 +33,7 @@ import {
   reviews,
 } from './data';
 
-import { auth, signOut} from '../../firebase/firebase.utils';
+// import { auth, signOut} from '../../firebase/firebase.utils';
 
 const useStyles = makeStyles(theme => ({
   pagePaddingTop: {
