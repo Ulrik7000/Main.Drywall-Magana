@@ -9,7 +9,7 @@ import { HeroShaped } from 'components/organisms';
 import FormInput from './components/form-input/form-input.component';
 import CustomButton from './components/custom-button/custom-button.component'
 
-import { auth, signInWithGoogle } from '../../firebase/firebase.utils';
+// import { auth, signInWithGoogle } from '../../firebase/firebase.utils';
 
 import './sign-in.styles.css';
 
