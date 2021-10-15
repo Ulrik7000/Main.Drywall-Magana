@@ -68,8 +68,8 @@ import CollectionsOverview from './views/Ecommerce/components/collections-overvi
 import CollectionPage from './views/Ecommerce/pages/collection/collection.component';
 
 //import { auth, createUserProfileDocument } from './firebase/firebase.utils'
-import { setCurrentUser } from './redux/user/user.actions';
-import { selectCurrentUser } from './redux/user/user.selectors';
+// import { setCurrentUser } from './redux/user/user.actions';
+// import { selectCurrentUser } from './redux/user/user.selectors';
 import Services from './views/Ecommerce/components/Services/Services.component';
 import Materials from './views/Ecommerce/components/Materials/Materials.component';
 import AutomaticTools from './views/Ecommerce/components/AutomaticTools/AutomaticTools.component';
