@@ -62,7 +62,7 @@ import {
 
 import HomePage from './views/Ecommerce/pages/homepage/homepage.component';
 import storePage from './views/Ecommerce/pages/store/store.component';
-import Header from './views/Ecommerce/components/header/header.component';
+// import Header from './views/Ecommerce/components/header/header.component';
 import CheckoutPage from './views/Ecommerce/pages/checkout/checkout.component';
 import CollectionsOverview from './views/Ecommerce/components/collections-overview/collections-overview.component'
 import CollectionPage from './views/Ecommerce/pages/collection/collection.component';
