@@ -51,7 +51,7 @@ import {
   PasswordResetCover as PasswordResetCoverView,
   PasswordResetSimple as PasswordResetSimpleView,
   SigninSimple as SigninSimpleView,
-  SigninCover as SigninCoverView,
+//   SigninCover as SigninCoverView,
   SignupSimple as SignupSimpleView,
   SignupCover as SignupCoverView,
   Account as AccountView,
