@@ -12,11 +12,12 @@
     "clear-all": "rimraf ./build ./node_modules"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "rules": {
+    "rules": {
 		"no-unused-vars": "off"
-	}
+	},
+	  "extends": [
+      "react-app",
+      
     ]
   },
   "browserslist": {
