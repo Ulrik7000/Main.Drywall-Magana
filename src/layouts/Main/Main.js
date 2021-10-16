@@ -5,13 +5,23 @@ import { makeStyles, useTheme } from '@material-ui/core/styles';
 import { useMediaQuery, Divider } from '@material-ui/core';
 import { Topbar, Footer, Sidebar } from './components';
 
+import { Grid } from '@material-ui/core';
+import { Image } from 'components/atoms';
+import { SectionHeader } from 'components/molecules';
+import { DescriptionListIcon, CardBase } from 'components/organisms';
+
+import { Link } from 'react-router-dom';
+import { Route } from 'react-router-dom';
+// import store
+import { withRouter } from 'react-router-dom';
+
 const useStyles = makeStyles(theme => ({
   root: {
     height: '100%',
   },
 }));
 
-const Main = ({ children, themeToggler, themeMode }) => {
+const Main = ({ linkUrl, data, className, item, children, themeToggler, themeMode }) => {
   const classes = useStyles();
 
   const theme = useTheme();
@@ -27,7 +37,6 @@ const Main = ({ children, themeToggler, themeMode }) => {
       children: {
         services: {
           groupTitle: 'Drywall finishing calculators',// groupTitle: 'Services',
-          linkUrl: 'facebook.com',
           pages: [
             {
               title: 'Calculate by number of sheets installed',
@@ -260,14 +269,11 @@ const Main = ({ children, themeToggler, themeMode }) => {
         settings:
         {
           groupTitle: ' ',
-          href: '/shop',
-          // groupTitle: 'Settings',
           pages:
           [
-            {
-                title: 'HOME',
-              href: '/shop',
-            },
+            {title: 'HOME',
+              href: '/shop'},
+
             // {
               // title: 'Security',
               // href: '/account/?pid=security',
@@ -284,10 +290,9 @@ const Main = ({ children, themeToggler, themeMode }) => {
         },
         signup: {
           groupTitle: 'Categories',
-          href:
-          // '/portfolio-page#socmed',
-          '/shop#categs',
+
           pages: [
+
             {title: 'Services',
             href: '/shop/services'},
             {title: 'Materials',
