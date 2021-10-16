@@ -36,7 +36,7 @@ const Categories = props => {
   const classes = useStyles();
 
   return (
-    <div >
+    <div id='categories'> 
     <div
     className={className} {...rest}
 
