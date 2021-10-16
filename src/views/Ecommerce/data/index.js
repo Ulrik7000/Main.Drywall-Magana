@@ -143,8 +143,8 @@ export const services = [
   },
   {
     image: {
-      src: 'https://scontent.fybz2-2.fna.fbcdn.net/v/t39.30808-6/p526x296/243437623_406946284116570_6838826457915622567_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=730e14&_nc_ohc=xpgdwlxN3-oAX8SnwqJ&_nc_ht=scontent.fybz2-2.fna&oh=2ce2cbe8558165c6ed36538edce384c1&oe=61653CEF',
-      srcSet: 'https://scontent.fybz2-2.fna.fbcdn.net/v/t39.30808-6/p526x296/243437623_406946284116570_6838826457915622567_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=730e14&_nc_ohc=xpgdwlxN3-oAX8SnwqJ&_nc_ht=scontent.fybz2-2.fna&oh=2ce2cbe8558165c6ed36538edce384c1&oe=61653CEF 2x',
+      src: 'https://drywallmagana.com/images/Lev5.jpg',
+      srcSet: 'https://drywallmagana.com/images/Lev5.jpg 2x',
     },
     price: '$1.2-1.4/sqft',
     title: 'Level 5 finish',
@@ -154,8 +154,8 @@ export const services = [
   },
   {
     image: {
-      src: 'https://scontent.fybz2-1.fna.fbcdn.net/v/t39.30808-6/243471421_406945640783301_4159632388744896805_n.png?_nc_cat=100&ccb=1-5&_nc_sid=730e14&_nc_ohc=Q4SM6bOR1sEAX8pkyNQ&tn=OF_119SPTjmI8wk7&_nc_ht=scontent.fybz2-1.fna&oh=afcbd4308a9a7b860093bd3800fc3856&oe=6165390B',
-      srcSet: 'https://scontent.fybz2-1.fna.fbcdn.net/v/t39.30808-6/243471421_406945640783301_4159632388744896805_n.png?_nc_cat=100&ccb=1-5&_nc_sid=730e14&_nc_ohc=Q4SM6bOR1sEAX8pkyNQ&tn=OF_119SPTjmI8wk7&_nc_ht=scontent.fybz2-1.fna&oh=afcbd4308a9a7b860093bd3800fc3856&oe=6165390B 2x',
+      src: 'https://drywallmagana.com/images/poprep.png',
+      srcSet: 'https://drywallmagana.com/images/poprep.png 2x',
     },
     price: '$3-$4 sqft',
     title: 'Popcorn ceiling repair',
