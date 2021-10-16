@@ -67,9 +67,9 @@
 }
 
 .category-image__one {
-  left: 0rem;
+  left: 0%;
   width: 25vw;
-  max-width: 480px;
+  max-width: 680px;
 }
 
 .category-image__two {
@@ -91,7 +91,46 @@
 ********************************/
 @media screen and (max-width: 876px) {
   .hero {
-    height: 60vh;
+    height: 40vh;
+
+  }
+
+  .icon-holder__text {
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: 0;
+    color: rgb(0, 0, 0);
+
+  }
+
+  .category-image {
+    position: absolute;
+  }
+
+  .category-image img {
+    max-width: 60%;
+  }
+
+  .category-image__one {
+    left: 0%;
+    top: 50%;
+    width: 25vw;
+    max-width: 300px;
+  }
+
+  .category-image__two {
+    top: 0;
+    right: 0;
+    width: 28vw;
+    max-width: 378px;
+  }
+
+  .category-image__three {
+    bottom: 10;
+    right: 0;
+    width: 30vw;
+    max-width: 280px;
   }
 
   /*******************************
@@ -112,7 +151,7 @@
   /*******************************
     Reposition images
   ********************************/
-  .category-image__one {
+  /* .category-image__one {
     top: -5rem;
     width: 80vw;
   }
@@ -126,5 +165,5 @@
     bottom: auto;
     right: -5rem;
     width: 50vw;
-  }
+  } */
 }
