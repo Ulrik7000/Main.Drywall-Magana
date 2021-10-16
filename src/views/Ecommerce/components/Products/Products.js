@@ -93,7 +93,7 @@ const Products = props => {
 
 
     return (
-    <div className={className} {...rest}>
+    <div id='featuredservices' className={className} {...rest}>
       <SectionHeader
         title="Featured services"
         subtitle="You can book your project's drywall finishing services clicking on the button of the service that most accomodates your needs. This prices are based on labour only costs"
@@ -113,7 +113,7 @@ const Products = props => {
                     height: '100%',
                   }}
                 />
-              
+
               </CardMedia>
               <CardContent className={classes.cardContent}>
                 <Typography
