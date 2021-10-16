@@ -95,6 +95,11 @@
 
   }
 
+  .icon-holder__icon img {
+    padding-left: 25%;
+    max-width: 80%;
+  }
+
   .icon-holder__text {
     font-size: 3rem;
     font-family: Arial, Helvetica, sans-serif;
