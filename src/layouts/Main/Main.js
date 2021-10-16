@@ -266,13 +266,17 @@ const Main = ({ linkUrl, data, className, item, children, themeToggler, themeMod
       title: 'Shop',
       id: 'account',
       children: {
-        settings:
-        {
+
+        settings: {
           groupTitle: ' ',
-          pages:
-          [
+          pages:  [
+
             {title: 'HOME',
               href: '/shop'},
+              {title: 'CATEGORIES',
+                href: '/shop#cats'},
+                {title: 'FEATURED SERVICES',
+                  href: '/shop#featuredservices'},
 
             // {
               // title: 'Security',
@@ -289,22 +293,21 @@ const Main = ({ linkUrl, data, className, item, children, themeToggler, themeMod
           ],
         },
         signup: {
-          groupTitle: 'Categories',
-
+          // groupTitle: 'Categories',
           pages: [
 
-            {title: 'Services',
-            href: '/shop/services'},
-            {title: 'Materials',
-            href: '/shop/materials'},
-            {title: 'Automatic tools',
-            href: '/shop/automatictools'},
-            {title: 'Hand taping tools',
-            href: '/shop/manualtools'},
-            {title: 'Apparel',
-            href: '/shop/apparel'},
-            {title: 'Best deals',
-            href: '/shop/bestdeals'},
+            // {title: 'Services',
+            // href: '/shop/services'},
+            // {title: 'Materials',
+            // href: '/shop/materials'},
+            // {title: 'Automatic tools',
+            // href: '/shop/automatictools'},
+            // {title: 'Hand taping tools',
+            // href: '/shop/manualtools'},
+            // {title: 'Apparel',
+            // href: '/shop/apparel'},
+            // {title: 'Best deals',
+            // href: '/shop/bestdeals'},
             {
               // title: 'Simple',
               // href: '/signup-simple',
@@ -355,6 +358,7 @@ const Main = ({ linkUrl, data, className, item, children, themeToggler, themeMod
           ],
         },
       },
+
     },
   };
 
