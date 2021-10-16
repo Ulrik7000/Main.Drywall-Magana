@@ -79,30 +79,6 @@ import BestDeals from './views/Ecommerce/components/BestDeals/BestDeals.componen
 
 
 class Routes extends React.Component {
-//   unsubscribeFromAuth = null;
-
-//   componentDidMount() {
-//       const { setCurrentUser } = this.props;
-
-//       this.unsubscribeFromAuth = auth.onAuthStateChanged(async userAuth => {
-//         if (userAuth) {
-//           const userRef = await createUserProfileDocument(userAuth);
-
-//           userRef.onSnapshot(snapShot => {
-//             setCurrentUser({
-//               id: snapShot.id,
-//               ...snapShot.data()
-//             });
-//           });
-//         }
-
-//         setCurrentUser(userAuth);
-//       });
-//     }
-
-//     componentWillUnmount() {
-//       this.unsubscribeFromAuth();
-//     }
 
 
   render() {
@@ -647,7 +623,7 @@ class Routes extends React.Component {
           />
         )}
       />
-      
+
 
       <Route
         exact
@@ -660,7 +636,7 @@ class Routes extends React.Component {
           />
         )}
       />
-      
+
       <Route
         exact
         path="/account"
