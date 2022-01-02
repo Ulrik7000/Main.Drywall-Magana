@@ -9,6 +9,7 @@ import { HeroShaped } from 'components/organisms';
 const useStyles = makeStyles(theme => ({
   fontWeight900: {
     fontWeight: 900,
+    fontSize: '82.5%',
   },
   leftSideContent: {
     '& .section-header__cta-container': {
@@ -100,7 +101,7 @@ const Hero = ({ themeMode = 'light', className, ...rest }) => {
             'level 4 finish',
             'level 5 finsh',
             'patch work',
-            'walls touch up',
+            'wall touch ups',
             'popcorn removal',
             'potlight repair',
             'and many more...',
