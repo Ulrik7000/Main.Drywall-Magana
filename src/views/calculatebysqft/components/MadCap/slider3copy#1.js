@@ -264,8 +264,8 @@ style={{color: '#fff'}}>
               <Input
               className={classes.input}
               value={
-              (sqft * (height*0.125))*1}
-              // (sqft * (height*0.125))*1)
+              (sqft * (height*0.125))*1.2}
+              // (sqft * (height*0.125))*1.2)
 
               margin="dense"
               onChange={handleInputChange1}
