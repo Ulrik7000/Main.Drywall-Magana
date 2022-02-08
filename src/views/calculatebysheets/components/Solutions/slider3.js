@@ -329,7 +329,7 @@ const handleSliderChange1 = (event, newValue1) => {
               <Input
               className={classes.input}
               value={
-              (sheets * (height*0.135)*(size*4))*0.6
+              (sheets * (height*0.135)*(size*4))*1
               // size+height+sheets
               }
               margin="dense"
