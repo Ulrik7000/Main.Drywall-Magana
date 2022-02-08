@@ -264,7 +264,7 @@ style={{color: '#8a8a8a'}}>
               <Input
               className={classes.input}
               value={
-              (sqft * (height*0.125))*1}
+              (sqft * (height*0.125))*1.2}
               // (sqft * (height*0.125))*0.9)
 
               margin="dense"
