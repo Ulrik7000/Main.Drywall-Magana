@@ -94,18 +94,6 @@ const Services = ({ className, ...rest }) => {
         </Grid>
       </Section>
     </div>
-
-<div>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4011556428762808"
-     crossorigin="anonymous"></script>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-format="autorelaxed"
-     data-ad-client="ca-pub-4011556428762808"
-     data-ad-slot="5656720352"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</div>
   );
 };
 
