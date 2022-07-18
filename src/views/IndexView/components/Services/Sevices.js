@@ -105,7 +105,6 @@ const Services = ({ className, ...rest }) => {
      data-ad-slot="5656720352"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 </div>
   );
 };
