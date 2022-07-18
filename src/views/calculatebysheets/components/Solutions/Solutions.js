@@ -148,12 +148,13 @@ const valor = sheets * (height*0.135)*(size*4)*0.6;
               <Grid item xs={12} sm={6}>
               <iframe
                 className={classes.listGrid}
+                allowtransparency = "true"
                 frameBorder="0"
                 html="0"
                 title="video"
-                width="60%"
-                height="600"
-                src="https://www.kapwing.com/e/60e1a2ea2d8314006d200199"
+                width="95%"
+                height="449"
+                src="images/70sheets.mp4"
                 frameBorder="0"
                 allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
               />
