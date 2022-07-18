@@ -191,7 +191,7 @@ const handleSliderChange1 = (event, newValue1) => {
 
   return (
 
-  <div style={{height: "200%"}} className={className} {...rest}>
+  <div style={{height: "200%"}} className={classes.root}>
 
   <SectionHeader
     title={"Quote calculator"}
