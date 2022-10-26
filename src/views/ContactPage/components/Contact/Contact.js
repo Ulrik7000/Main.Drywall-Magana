@@ -52,7 +52,7 @@ const Contact = props => {
 <a href="tel:4372207887">
                   <ListItemText
                   primary="Phone"
-                  secondary="tel:4372207887"
+                  secondary="4372207887"
                   primaryTypographyProps={{
                     variant: 'subtitle1',
                     color: 'textSecondary',
@@ -73,9 +73,10 @@ const Contact = props => {
                     className={classes.icon}
                   />
                 </ListItemAvatar>
-                <ListItemText
+                <a href="mailto:webmaster@drywallmagana.com">
+                  <ListItemText
                   primary="Email"
-                  secondary="mailto:webmaster@drywallmagana.com"
+                  secondary="webmaster@drywallmagana.com"
                   primaryTypographyProps={{
                     variant: 'subtitle1',
                     color: 'textSecondary',
@@ -85,6 +86,7 @@ const Contact = props => {
                     color: 'textPrimary',
                   }}
                 />
+</a>
               </ListItem>
               <ListItem disableGutters data-aos="fade-up">
                 <ListItemAvatar>
