@@ -61,6 +61,7 @@ const Contact = props => {
                     color: 'textPrimary',
                   }}
                 />
+<a href="tel:4372207887"><li class="MuiListItem-root jss158"><p class="MuiTypography-root jss162 MuiTypography-body2">Call or text at 4372207887</p></li></a>
               </ListItem>
               <ListItem disableGutters data-aos="fade-up">
                 <ListItemAvatar>
