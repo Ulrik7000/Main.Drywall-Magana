@@ -51,7 +51,7 @@ const Contact = props => {
                 </ListItemAvatar>
                 <ListItemText
                   primary="Phone"
-                  secondary="4372207887"
+                  secondary="tel:4372207887"
                   primaryTypographyProps={{
                     variant: 'subtitle1',
                     color: 'textSecondary',
@@ -72,7 +72,7 @@ const Contact = props => {
                 </ListItemAvatar>
                 <ListItemText
                   primary="Email"
-                  secondary="webmaster@drywallmagana.com"
+                  secondary="mailto:webmaster@drywallmagana.com"
                   primaryTypographyProps={{
                     variant: 'subtitle1',
                     color: 'textSecondary',
@@ -93,7 +93,7 @@ const Contact = props => {
                 </ListItemAvatar>
                 <ListItemText
                   primary="Zones we work on"
-                  secondary="Missisauga, Etobicoke, York, North York, East York, Vaughan, Toronto and Scarbrough. Or more precisely, 20km radius from York city."
+                  secondary="Missisauga, Etobicoke, York, North York, Toronto, Scarbrough, East York, Vaughan, Markham, Richmond Hill, Pickering, Aurora and Newmarket."
                   primaryTypographyProps={{
                     variant: 'subtitle1',
                     color: 'textSecondary',
