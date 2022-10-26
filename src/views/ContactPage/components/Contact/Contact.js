@@ -48,8 +48,9 @@ const Contact = props => {
                     srcSet="https://assets.maccarianagency.com/the-front/illustrations/contact-icon-phone@2x.png 2x"
                     className={classes.icon}
                   />
-                </ListItemAvatar>
-                <ListItemText
+                </ListItemAvatar>     
+<a href="tel:4372207887">
+                  <ListItemText
                   primary="Phone"
                   secondary="tel:4372207887"
                   primaryTypographyProps={{
@@ -61,7 +62,8 @@ const Contact = props => {
                     color: 'textPrimary',
                   }}
                 />
-<a href="tel:4372207887"><li class="MuiListItem-root jss158"><p class="MuiTypography-root jss162 MuiTypography-body2">Call or text at 4372207887</p></li></a>
+</a>
+
               </ListItem>
               <ListItem disableGutters data-aos="fade-up">
                 <ListItemAvatar>
